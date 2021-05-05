@@ -3,18 +3,19 @@ h1{ text-align: center;}
 
   background-color:#F0C5DD;
   text-align: center;
-  list-style-type: none;
+
   }
   
-li{margin-top: 20px;
-  margin-bottom: 20px;
+li{margin-top: 40px;
+  margin-bottom: 40px;
   margin-right: 150px;
-  margin-left: 80px; }
+  margin-left: 80px;
+  display: inline; }
 
-  .column {
+column {
   float: left;
   width: 33.33%;
-  padding: 5px;
+  padding: 10px;
 }
 
 .row::after {
@@ -22,3 +23,13 @@ li{margin-top: 20px;
   clear: both;
   display: table;
 }
+img{
+  style:width:200px;
+  height:300px;
+}
+html{background-color :black}
+p{color:white}
+
+h1{font-family: 'Courier New', Courier, monospace
+   
+   font-size: 400px}
