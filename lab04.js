@@ -20,3 +20,33 @@ if (usercolor==='blue')
      }
 
 
+//alert ('what is your age?')
+//var age 
+//var msg 
+//if 
+
+ var userPassword = prompt('Enter your password please')
+
+ while(userPassword !== '9876')
+ { 
+    userPassword = prompt('Incorrect please enter the correct password')
+ }
+
+var favplanet = prompt('Whats your favorite interior plant (orcide,Peace lily)?')
+
+while(favplanet !== 'orcide' && favplanet !=='Peace lily'){
+  favplanet = prompt('Try again !')
+}
+
+var plantCount = prompt('How many vases do you want to see ?')
+
+var image = ''
+for(var x = 0; x < plantCount ;x++){
+  if(favplanet ==='orcide'){
+    image = image+'<img src="https://i.pinimg.com/564x/dd/17/b2/dd17b2a973ddda40929e63def465629c.jpg">'
+  }else if( favplanet ==='Peace lily'){
+    image = image + '<img src="https://i.pinimg.com/564x/1a/e7/ef/1ae7ef76d161d6afffaa72545a4a8f1d.jpg">'
+  }
+}
+  document.write(image)
+
