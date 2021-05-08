@@ -1,10 +1,10 @@
-h1{ 
+h1,footer{ 
   text-align: center;
   }
 
 ul{
 
-  background-color:#F0C5DD;
+  background-color:#FFC0CB	;
 
   }
   
@@ -17,7 +17,7 @@ html{
   background-color :black
   }
 
-p,h2,form
+p,h2,form,footer
   {
     color:white
     }
