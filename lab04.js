@@ -25,9 +25,15 @@
 //var msg 
 //if 
 
+<<<<<<< HEAD
  //var userPassword = prompt('Enter your password please')
 
  /*while(userPassword !== '9876')
+=======
+ var userPassword = prompt('Enter your password please')
+
+ while(userPassword !== '9876')
+>>>>>>> 8a383ceec82f86fbc83fd2f7a4273631560207ad
  { 
     userPassword = prompt('Incorrect please enter the correct password')
  }
