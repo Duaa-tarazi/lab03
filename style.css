@@ -14,7 +14,7 @@ img{
   height:300px;
 }
 html{
-  background-color :black
+  background-color :black;
   }
 
 p,h2,form,footer
@@ -28,7 +28,9 @@ h1{
    font-size: 55px;}
 
    li{
-  display: inline; }
+  display: inline;
+  text-decoration: none;
+}
 
 column {
   float: left;
