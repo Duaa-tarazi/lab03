@@ -1,39 +1,33 @@
-//alert('welcome to home styling')
+alert('welcome to home styling')
 
-//var usercolor= prompt('slect the color of background:blue,yellow')
+var usercolor= prompt('slect the color of background:blue,yellow')
 
-//if (usercolor==='blue')
+if (usercolor==='blue')
      
-  //   {
-    //  document.write( '<img src="https://jane-athome.com/wp-content/uploads/2019/03/ACS_0504.jpg">')
+     {
+      document.write( '<img src="https://jane-athome.com/wp-content/uploads/2019/03/ACS_0504.jpg">')
        }
   
-   //else if(usercolor==="yellow")
+   else if(usercolor==="yellow")
   
-//   {
-  //   document.write(' <img src="https://i.pinimg.com/564x/c9/86/7d/c9867d53266ca52ce8b48db574e22f9f.jpg" alt="living room4">'
-    // )
-    // }
+    {
+     document.write(' <img src="https://i.pinimg.com/564x/c9/86/7d/c9867d53266ca52ce8b48db574e22f9f.jpg" alt="living room4">' )
+     }
    
-   //else {
-     //document.write(' <img src="https://www.renonation.sg/wp-content/uploads/The-Scientist-Telok-Blangah-HDB-Pink-Design-Theme-3.jpg" alt="living room4">')
-     //}
+   else {
+     document.write(' <img src="https://www.renonation.sg/wp-content/uploads/The-Scientist-Telok-Blangah-HDB-Pink-Design-Theme-3.jpg" alt="living room4">')
+     }
 
 
-//alert ('what is your age?')
-//var age 
-//var msg 
-//if 
+ 
 
-<<<<<<< HEAD
- //var userPassword = prompt('Enter your password please')
 
- /*while(userPassword !== '9876')
-=======
  var userPassword = prompt('Enter your password please')
 
  while(userPassword !== '9876')
->>>>>>> 8a383ceec82f86fbc83fd2f7a4273631560207ad
+ var userPassword = prompt('Enter your password please')
+
+ while(userPassword !== '9876')
  { 
     userPassword = prompt('Incorrect please enter the correct password')
  }
